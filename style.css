@@ -57,7 +57,7 @@ main{
     justify-content: flex-start;
     align-items: center;
 
-    padding-top: 120px;
+    padding-top: 60px;
     
 
 
@@ -77,7 +77,7 @@ main{
 .hero h2{
     font-size: 50px;
     margin-bottom: 20px;
-    margin-top : 10px;
+    margin-top : 80px;
 }
 .hero p{
     font-size: 20px;
