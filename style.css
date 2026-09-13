@@ -8,7 +8,8 @@ body{
 }
 .logo{
     font-size:60px;
-    margin-left: 60px;
+    
+    text-align : center;
 }
 header {
     background-color : #6a0085;
@@ -25,6 +26,7 @@ ul {
     flex-direction: row;
 justify-content: space-between;
 align-items: center;
+margin-right : 40px;
 gap: 30px;
 }
 a{
@@ -40,20 +42,28 @@ footer{
     text-align: center;
     margin-top: auto;
 }
+main{
+    flex: 1;
+    display: flex;
+}
 .hero {
     color : black;
   text-align : center;
   padding: 50px 20px;
   background-color : rgba(182, 179, 179, 0.404);
-  min-height: 500px;
-  flex: 1;
+   flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
 }
 .hero button {
     margin-top: 50px;
-    background-color :  #5a545c;
+    background-color :  #c38fd4;
     color : white;
     border :none;
-    padding : 15px , 30px;
+    padding : 20px  20px;
     font-size : 20px;
     border-radius : 5px;
 }
@@ -124,5 +134,10 @@ footer{
 }
 
 .game-card button:hover{
-    background-color: #c43fff;
+    background-color: #298d42;
 }
+
+
+
+
+
